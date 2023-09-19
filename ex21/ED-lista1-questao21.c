@@ -16,7 +16,7 @@ int main()
 
     square_meters = acres * 4046.86;
 
-    printf("Valor em metros quadradis: %.2f", acres);
+    printf("Valor em metros quadrados: %.2f", acres);
     
     return 0;
 }
