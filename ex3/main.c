@@ -1,6 +1,15 @@
 #include <stdio.h>
 
 int main() 
+
+/*
+** Função: Ler dois números e informar o dividendo, e e o resto do primeiro pelo
+segundo e do segundo pelo primeiro
+** Autor: Felipe Nóbrega de Almeida
+** Data: 19/09
+** Observações:
+*/
+
 {
     int first_number, second_number, rest1, rest2;
     float quotient1, quotient2;

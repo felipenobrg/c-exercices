@@ -1,6 +1,12 @@
 #include <stdio.h>
 
 int main()
+/*
+** Função: Transformar valor em real para dólar
+** Autor: Felipe Nóbrega de Almeida
+** Data: 19/09
+** Observações:
+*/
 {
     float value_real, value_dolar, quotation;
 

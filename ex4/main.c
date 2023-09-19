@@ -1,6 +1,12 @@
 #include <stdio.h>
 
 int main() 
+/*
+** Função: Algoritmo que determina a área e o perímetro de um retângulo
+** Autor: Felipe Nóbrega de Almeida
+** Data: 19/09
+** Observações:
+*/
 { 
     float length, width, area, perimeter;
 

@@ -1,6 +1,13 @@
 #include <stdio.h>
 
 int main() 
+/*
+** Função: Transformar velocidade em km/h para m/s
+** Autor: Felipe Nóbrega de Almeida
+** Data: 19/09
+** Observações:
+*/
+
 {
     float speed_km, speed_ms;
 
