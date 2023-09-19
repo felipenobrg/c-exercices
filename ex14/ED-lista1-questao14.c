@@ -11,7 +11,7 @@ int main()
 {
     float km, miles;
 
-    printf("Digite o milhas em m/s: ");
+    printf("Digite a distancia em milhas: ");
     scanf("%f", &miles);
 
     km = miles * 1.60934;
