@@ -16,7 +16,7 @@ int main()
    square = number * number;
    cube = number * number * number;
 
-   printf("O quadrado de %.2lf é %.2lf\n", number, square);
-   printf("O cubo de %.2lf é %.2lf\n", number, cube);
+   printf("O quadrado de %.2lf e %.2lf\n", number, square);
+   printf("O cubo de %.2lf e %.2lf\n", number, cube);
    return 0;
 }
