@@ -2,7 +2,7 @@
 
 int main() 
 /*
-** Função: Calcular o volume do cilindro
+** Função: Calcula o volume do cilindro
 ** Autor: Felipe Nóbrega de Almeida
 ** Data: 19/09
 ** Observações:

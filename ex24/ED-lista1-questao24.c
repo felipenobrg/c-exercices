@@ -2,7 +2,7 @@
 
 int main() 
 /*
-** Função: Calculando valor inteiro em segundos para horas, minutos e segundos
+** Função: Calcula valor inteiro em segundos para horas, minutos e segundos
 ** Autor: Felipe Nóbrega de Almeida
 ** Data: 19/09
 ** Observações:

@@ -2,7 +2,7 @@
 
 int main() 
 /*
-** Função: Calculando novo salário do funcionário, com um aumento de 25%
+** Função: Calcula novo salário do funcionário, com um aumento de 25%
 ** Autor: Felipe Nóbrega de Almeida
 ** Data: 19/09
 ** Observações:
