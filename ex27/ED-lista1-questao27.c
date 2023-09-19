@@ -18,7 +18,7 @@ int main()
     scanf("%d", &number_class);
 
     printf("Insira o percentual de desconto do INSS: ");
-    scanf("%d", &discount_inss);
+    scanf("%f", &discount_inss);
 
     gross_salary = class_hour * number_class;
 
