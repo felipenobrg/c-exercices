@@ -14,9 +14,9 @@ int main()
     printf("Digite uma area em metros quadrados: ");
     scanf("%f", &square_meters);
 
-    acres = square_meters * 4046.86;
+    acres = square_meters / 4046.86;
 
-    printf("Valor em litros: %.2f", acres);
+    printf("Valor em acres: %.2f", acres);
     
     return 0;
 }
