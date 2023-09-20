@@ -10,8 +10,20 @@ int main()
 */
 
 {
+    float initial_speed, final_speed, aceleration, space_covered;
 
-  
+    printf("Digite a velocidade inicial em m/s: ");
+    scanf("%f", &initial_speed);
+
+    printf("Digite a aceleracao em m/s: ");
+    scanf("%f", &aceleration);
+
+    printf("Digite o espaco percorrido: ");
+    scanf("%f", &space_covered);
+
+    final_speed = sqrt(initial_speed * initial_speed + 2 * aceleration * space_covered);
+
+    printf("Velocidade final: %.f  m/s", final_speed);
 
     return 0;
 }
