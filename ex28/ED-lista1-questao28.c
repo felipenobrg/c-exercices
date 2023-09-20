@@ -5,7 +5,7 @@ int main()
 ** Função: Calcula diferença entre duas horas distintas deum mesmo dia e 
 retorna um intervalo de tempo entre os dois horário
 ** Autor: Felipe Nóbrega de Almeida
-** Data: 19/09
+** Data: 20/09
 ** Observações:
 */
 
