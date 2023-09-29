@@ -2,7 +2,7 @@
 
 int main()
 /*
-** Função: Verificando se um ano é bissexto ou não.
+** Função: Verifica se um ano é bissexto ou não.
 ** Autor: Felipe Nóbrega de Almeida
 ** Data: 28/09
 ** Observações:
