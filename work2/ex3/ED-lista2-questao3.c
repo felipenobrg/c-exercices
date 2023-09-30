@@ -1,6 +1,12 @@
 #include <stdio.h>
 
 int main() {
+/*
+** Função: Calcula IMC(Indice de massa corporal)
+** Autor: Felipe Nóbrega de Almeida
+** Data: 28/09
+** Observações:
+*/
     float weight, height, bmi;
     printf("Digite seu peso em KG: ");
     scanf("%f", &weight);

@@ -3,7 +3,7 @@
 
 int main()
 /*
-** Função: Calcular fórmula IMC
+** Função: Calcula raizes dos coenficientes de a, b e c 
 ** Autor: Felipe Nóbrega de Almeida
 ** Data: 28/09
 ** Observações:
