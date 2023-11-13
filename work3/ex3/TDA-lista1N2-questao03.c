@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /*
-** Função: Programa que tem como funçao para todo número par entre
-700 e 1100. O programa deve imprimir cada número e os primos
-correspondentes.
+** Função: Programa que tem como funçao para todo número par entre 2
+e o numeros digitado pelo usuario. O programa deve imprimir cada número
+e os primos correspondentes.
 ** Autor: Felipe Nóbrega de Almeida
 ** Data: 10/11
 ** Observações:
@@ -48,7 +48,11 @@ int eh_primo(int n)
 
 int main()
 {
-  for (int i = 700; i <= 1100; i += 2) {
+  int user_number;
+  printf("Digite um numero: ");
+  scanf("%d", &user_number);
+
+   for (int i = 2; i <= user_number; i += 2) {
         if (eh_primo(i)) {
             printf("%d eh um numero par e primo.\n", i);
         }
