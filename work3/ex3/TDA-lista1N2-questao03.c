@@ -49,14 +49,16 @@ int eh_primo(int n)
 int main()
 {
   int user_number;
-  printf("Digite um numero: ");
+  printf("Digite um numero (2/n): ");
   scanf("%d", &user_number);
 
    for (int i = 2; i <= user_number; i += 2) {
-        if (eh_primo(i)) {
-            printf("%d eh um numero par e primo.\n", i);
+        for (int j = 2; j <= i / 2; j++) {
+            if (eh_primo(j) && eh_primo(i - j)) {
+                printf("%d = %d + %d\n", i, j, i - j);
+                break;
+            }
         }
     }
-
     return 0;
 }

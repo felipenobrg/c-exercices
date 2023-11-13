@@ -9,16 +9,10 @@ correspondentes.
 ** Observações:
 */
 
+
 int eh_par(int n)
 {
-    if (n % 2 == 0)
-    {
-        return n;
-    }
-    else
-    {
-        return 0;
-    }
+    return n % 2 == 0;
 }
 
 int eh_primo(int n)
@@ -48,9 +42,12 @@ int eh_primo(int n)
 
 int main()
 {
-  for (int i = 700; i <= 1100; i += 2) {
-        if (eh_primo(i)) {
-            printf("%d eh um numero par e primo.\n", i);
+    for (int i = 700; i <= 1100; i += 2) {
+        for (int j = 2; j <= i / 2; j++) {
+            if (eh_primo(j) && eh_primo(i - j)) {
+                printf("%d = %d + %d\n", i, j, i - j);
+                break;
+            }
         }
     }
 
