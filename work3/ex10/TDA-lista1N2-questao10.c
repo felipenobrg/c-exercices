@@ -8,8 +8,6 @@ função recursiva.
 ** Observações:
 */
 
-#include <stdio.h>
-
 float pot(float base, int expoente);
 
 int main() {
