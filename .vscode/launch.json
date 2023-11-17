@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/felip/OneDrive/Documentos/Studies-C/work3/ex13",
-      "program": "c:/Users/felip/OneDrive/Documentos/Studies-C/work3/ex13/build/Debug/outDebug",
+      "cwd": "c:/Users/felip/OneDrive/Documentos/Studies-C/work3/ex15",
+      "program": "c:/Users/felip/OneDrive/Documentos/Studies-C/work3/ex15/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
