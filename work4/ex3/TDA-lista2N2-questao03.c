@@ -45,27 +45,32 @@ void escreverEmpregado(Empregado *e) {
     printf("Salario: %.2f\n", e->salario);
 }
 
-void excluirEmpregado(Empregado *e); 
+void excluirEmpregado(Empregado *e) {
+}
 
 int main() {
     int numEmpregados;
-    printf("Digite o n√∫mero de empregados: ");
+    printf("Digite o numero de empregados: ");
     scanf("%d", &numEmpregados);
 
     Empregado *empregados = (Empregado *)malloc(numEmpregados * sizeof(Empregado));
 
-    for (int i = 0; i < numEmpregados; i++) {
+    int i; 
+
+    for (i = 0; i < numEmpregados; i++) {
         lerEmpregado(&empregados[i]);
     }
-      printf("\nInforma√ß√µes dos Empregados:\n");
-    for (int i = 0; i < numEmpregados; i++) {
+
+    printf("\nInformaÁıes dos Empregados:\n");
+    for (i = 0; i < numEmpregados; i++) {
         escreverEmpregado(&empregados[i]);
     }
 
-    for (int i = 0; i < numEmpregados; i++) {
+    for (i = 0; i < numEmpregados; i++) {
         excluirEmpregado(&empregados[i]);
     }
     free(empregados);
 
     return 0;
 }
+
