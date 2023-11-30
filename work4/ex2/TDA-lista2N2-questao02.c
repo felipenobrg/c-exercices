@@ -3,7 +3,9 @@
 #include <string.h>
 
 /*
-** Função: Programa armazena todos aeroportos
+** Função: Programa armazena todos aeroportos que a empresa trabalha.
+O programa Implementar rotinas para ler, escrever e excluir registros 
+deste tipo.
 ** Autor: Felipe Nóbrega
 ** Data 29/11:
 ** Observações:
@@ -44,9 +46,7 @@ void escreverAeroporto(Aeroporto *a) {
     printf("Capacidade: %d\n", a->capacidade);
 }
 
-void excluirAeroporto(Aeroporto *a) {
-
-}
+void excluirAeroporto(Aeroporto *a);
 
 int main() {
     int numAeroportos;
