@@ -3,10 +3,9 @@
 #include <string.h>
 
 /*
-** Função: Programa armazena dados de um RG
+** Função: Programa armazena dados de um RG e define um vetor de empregados 
+usando alocação dinâmica
 ** Autor: Felipe Nóbrega
-cardíaca máxima e a frequência cardíaca ideal fazendo o cálculo correto caso a pessoa
-seja homem ou mulher.
 ** Data 30/11:
 ** Observações:
 */
@@ -48,7 +47,6 @@ void escreverEmpregado(Empregado *e) {
 
 void excluirEmpregado(Empregado *e); 
 
-
 int main() {
     int numEmpregados;
     printf("Digite o número de empregados: ");
@@ -59,10 +57,8 @@ int main() {
     for (int i = 0; i < numEmpregados; i++) {
         lerEmpregado(&empregados[i]);
     }
-
       printf("\nInformações dos Empregados:\n");
     for (int i = 0; i < numEmpregados; i++) {
-        printf("\nEmpregado #%d:\n", i + 1);
         escreverEmpregado(&empregados[i]);
     }
 
